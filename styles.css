@@ -1,0 +1,202 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 10%;
+    
+    
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family:'Ubuntu', sans-serif;
+    font-weight:500;
+
+}
+.nav-link {
+    font-size: 1.5rem;
+    margin-left: 32px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.iphoneimg {
+    transform: rotate(20deg);
+    width: 20%;
+    margin-left: 120px;
+    position: absolute;
+    
+}
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .iphoneimg {
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+        margin: auto;
+    }
+    .introdiv {
+        text-align: center;
+        margin: auto;
+
+    }
+}
+
+
+
+.titletext {
+    margin-top: 100px;
+}
+
+.downloadbtn {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+/* Features Section */
+
+#features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+.featuresrow {
+    padding-top: 20rem;
+    margin: 0 15rem 20rem 15rem;
+}
+
+.icons {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    color: #f76379;
+}
+
+.icons:hover {
+    color: #f12c4a;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.testp {
+  font-size: 1.5rem;
+  width: 380px;
+  margin: auto;
+}
+
+/* Testimonial Section */
+
+#testimonial {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ff4c68;
+    color: white;
+}
+
+
+.h2carousel {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.testimage {
+    border-radius: 100%;
+    width: 8.5rem;
+    
+}
+
+ /* Press Section */
+#press {
+    background-color:#ff4c68;
+    text-align: center;
+    padding-bottom: 7rem;
+    padding-top: 3rem;
+}
+
+.presslogo {
+    width: 13%;
+    margin-right: 40px;
+}
+
+
+ /* Pricing Section */
+#pricing {
+    text-align: center;
+    padding: 10rem 0;
+}
+.h1pricing {
+    font-weight: 400;
+}
+.card {
+    width: 28rem;
+    margin: 5rem 5rem 0 5rem;
+}
+
+.cardsrow {
+    margin:auto;
+    text-align: center;
+}
+
+.pricesbutton {
+    width:24rem ;
+}
+
+ /* CTA Section */
+
+ #cta {
+     background-color:#ff4c68;
+     text-align: center;
+     padding: 10rem 0;
+     
+ }
+
+ .h1cta {
+    color: white;
+    font-weight: 500;
+
+ }
+
+ /* footer Section */
+
+ footer {
+     padding:3rem 0 ;
+     text-align: center;
+     margin: 120px;
+ }
+
+ .footericon {
+     margin: 10px;
+     margin-bottom: 17px;
+ }
+
